@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Poppins&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Poppins,"sans-serif";
+}
+body{
+    background: #dfe9f5;
+}
+.container{
+    display: flex;
+}
+nav{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    color: rgb(11,109,109);
+    width: 320px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+.logo{
+     text-align: center;
+     display: flex;
+     margin: 10px 0 0 10px;
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+a{
+    position: relative;
+    color: rgb(85,83,83);
+    font-size: 14px;
+    width: 350px;
+    padding: 10px;
+    /* margin-left: 20px; */
+}
+nav .fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+a:hover{
+    background: #eee;
+}
+.logout{
+    position: absolute;
+    bottom: 0;
+}
+/* main section  */
+.main{
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    background: #fff;
+}
+.main-top{
+    display: flex;
+    width: 100%;
+    /* padding-left: 20px; */
+}
+.main-top i{
+    position: absolute;
+    right: 0;
+    margin: 10px 30px;
+    color: rgb(11,109,109);
+    cursor: pointer;
+}
+.main-personal {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.main-personal .card{
+    width: 35%;
+    margin: 10px;
+    background: rgb(244, 244, 165);
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+.main-personal .card h3{
+    margin: 10px;
+    text-transform: capitalize;
+}
+.main-personal .card p{
+    font-size:12px;
+}
+.main-personal .card i{
+    font-size: 22px;
+    padding: 10px;
+}
+
+.main-personal .card1{
+    width: 55%;
+    margin: 10px;
+    background: rgb(213, 203, 203);
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+    margin-left: 20px;
+}
+.main-personal .card1 h3{
+    margin: 10px;
+    text-transform: capitalize;
+}
+.main-personal .card1 p{
+    font-size:12px;
+}
+.main-personal .card1 i{
+    font-size: 22px;
+    padding: 10px;
+}
+
+/* courses */
+.main-course{
+    margin-top: 10px;
+    text-transform: capitalize;
+    display: flex;
+}
+.main-course .card1{
+    width: 50%;
+    /* display: flex; */
+    padding: 10px;
+    margin-top: 10px;
+    background: rgb(213, 203, 203);
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+    margin-left: 25px;
+}
+.main-course .card1 table{
+    margin-left: 28px; 
+}
+.main-course .card1 h1{
+    margin: 18px;
+}
+.main-course .card1 thead tr th{
+   margin-bottom: 20px;
+   text-decoration: underline;
+   padding-left: 20px;
+}
+.main-course .card1 tbody tr td{
+    padding: 10px;
+
+}
+/* attendance */
+.main-course .card2{
+    width: 38%;
+    padding: 10px;
+    margin-top: 10px;
+    background: rgb(213, 203, 203);
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+    margin-left: 35px;
+}
+.main-course .card2 h3{
+   margin-top: 10px;
+}
+.main-course .card2 .bar{
+    margin: 20px 0;
+}
+.main-course .card2 .bar .info{
+    margin-bottom: 10px;
+}
+.main-course .card2 .bar .info span{
+    text-transform: uppercase;
+}
+.main-course .card2 .bar .progress-bar{
+    width: 100%;
+    height: 10px;
+    background-color: #dddddd;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.main-course .card2 .bar .progress-bar span{
+    position: absolute;
+    height: 100%;
+    border-radius: 10px;
+}
+.main-course .card2 .bar .progress-bar span.html{
+    width: 90%;
+    background-color: rgba(86, 206, 68, 0.768);
+}
+.main-course .card2 .bar .progress-bar span.css{
+    width: 85%;
+    background-color: rgb(237, 133, 133);
+}
+.main-course .card2 .bar .progress-bar span.javascript{
+    width: 70%;
+    background-color: rgba(86, 206, 68, 0.768);
+}
+.main-course .card2 .bar .progress-bar span.reactjs{
+    width: 70%;
+    background-color: rgb(237, 133, 133);
+}
+
+/* bottom */
+.bottom{
+    margin-top: 20px;
+    text-transform: capitalize;
+    width: 92%;
+    /* background: red; */
+    background: rgb(213, 203, 203);
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.bottom-box h3{
+    margin: 10px;
+    padding-top: 15px;
+    padding-left: 20px;
+    text-transform: capitalize;
+    display: flex;
+}
+.bottom-box button{
+    width: 15%;
+    height: 30px;
+    background-color: #dddddd;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.bottom-box .exam-name{
+    font-size: 15px;
+}
